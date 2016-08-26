@@ -1,5 +1,6 @@
 package day05;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -63,6 +64,23 @@ public class MapDemo2 {
 			String key = x.getKey();
 			Integer value = x.getValue();
 			System.out.println(key+","+value);
+			
+			
+			/**
+			 * 
+			 * Collection <Integer> values = map.values();
+			 * 
+			 */
+			 Collection <Integer> values = map.values();
+			 
+			for(Integer i: values){
+				
+				System.out.println("value:"+i);
+				
+			}
+			 
+			
+			
 			
 			
 		}
