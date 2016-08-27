@@ -1,7 +1,9 @@
-package day04HomeWork;
+package day03Homework;
 
 import java.util.ArrayList;
 import java.util.Collection;
+
+import org.omg.Messaging.SyncScopeHelper;
 
 public class homework2 {
 
@@ -16,6 +18,9 @@ public class homework2 {
 		
 		int size = c.size();
 		boolean  isContianFour = c.contains("four");
+		c.clear();
+		System.out.println(c.size());
+		System.out.println(c.isEmpty());
 		
 		
 		

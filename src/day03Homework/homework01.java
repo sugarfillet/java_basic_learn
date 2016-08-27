@@ -1,4 +1,4 @@
-package day04HomeWork;
+package day03Homework;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
