@@ -1,0 +1,21 @@
+高级流
+
+		高级流：流的处理器    离不开输入输出流
+		低级流：输入输出流  ：文件输入输出流
+
+		主要了解高级流的功能
+		种类多  按需索取
+
+
+BOS(BufferOutputStream)
+		读写效率高
+		
+		
+		
+比较  :   File 访问文件属性 一些文件操作  不能读写文件
+   		  RandomAccessFile  文件的读写操作  （指针读写） 逐个字符读写  整块儿读写
+          FileInputStream(FileOutputStream) 以流的方式读写 读写分工
+		  BufferedInputStream(BufferedOutputStream) 对于流的处理器 高级流 （本质也大块儿读写 减少读写次数提高效率）
+		  InputStreamReader    字符流
+		  PrintWriter BufferedReader	基于字符流的 读写一行字符串
+		  
