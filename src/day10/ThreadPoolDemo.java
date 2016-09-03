@@ -45,7 +45,6 @@ public class ThreadPoolDemo {
 		 *停止线程池的方法：
 		 *shutdown();当线程池的所有任务运行完毕后停止
 		 * 
-		 * 
 		 */
 		threadPool.shutdownNow();
 		System.out.println("停止线程池");
